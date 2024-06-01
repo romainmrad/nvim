@@ -1,6 +1,20 @@
-require'nvim-treesitter.configs'.setup {
+require("nvim-treesitter.configs").setup({
 	-- A list of parser names, or "all"
-	ensure_installed = { "c", "lua", "rust", "ruby", "vim", "html" },
+	ensure_installed = {
+		"c",
+		"lua",
+		"rust",
+		"ruby",
+		"vim",
+		"java",
+		"cpp",
+		"bash",
+		"csv",
+		"git_config",
+		"gitignore",
+		"markdown_inline",
+		"yaml",
+	},
 
 	-- Install parsers synchronously (only applied to `ensure_installed`)
 	sync_install = false,
@@ -11,4 +25,4 @@ require'nvim-treesitter.configs'.setup {
 	indent = {
 		enable = true,
 	},
-}
+})

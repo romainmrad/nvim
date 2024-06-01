@@ -7,6 +7,7 @@ require("conform").setup({
 		cpp = { "astyle", "clang-format" },
 		json = { "prettier" },
 		markdown = { "prettier" },
+		bash = { "beautysh" },
 	},
 	format_on_save = {
 		lsp_fallback = true,
