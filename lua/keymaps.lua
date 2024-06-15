@@ -1,6 +1,6 @@
 -- space bar leader key
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 -- buffers
 vim.keymap.set("n", "<leader>n", ":bn<cr>")
