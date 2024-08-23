@@ -4,7 +4,6 @@ require("nvim-treesitter.configs").setup({
 		"c",
 		"lua",
 		"rust",
-		"ruby",
 		"vim",
 		"java",
 		"cpp",
@@ -12,8 +11,6 @@ require("nvim-treesitter.configs").setup({
 		"csv",
 		"git_config",
 		"gitignore",
-		"markdown_inline",
-		"yaml",
 	},
 
 	-- Install parsers synchronously (only applied to `ensure_installed`)
